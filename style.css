@@ -1,0 +1,52 @@
+h1{
+    color :rgb(241, 76, 103);
+}
+*{
+ border-collapse: collapse;
+}
+.header{
+    background:white ;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+  margin-left:20px ;
+}
+.grid{
+    background: white;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content: space-evenly ;
+}
+.animal{
+    display: flexwrap;
+    position: relative;
+}
+body{
+    background-color: aquamarine;
+}
+
+.animal p{
+  position: absolute;  
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+  opacity:0;
+}
+
+.animal:hover p {
+    opacity: 1;
+}
+
+.animal:hover img{
+    opacity:0.33;
+}
+
+a:link{
+    color:#1c5eda;
+}
+a:visited{
+    color:#17c6f1;
+}
